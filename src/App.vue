@@ -15,6 +15,7 @@ import ConditionalStatements from './components/Topics/ConditionalStatements.vue
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import DynamicHtmlAttributes from './components/Topics/DynamicHtmlAttributes.vue';
 import MonitoringInputValues from './components/Topics/MonitoringInputValues.vue';
+import EventListeners from './components/Topics/EventListeners.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
@@ -35,6 +36,7 @@ export default {
         LoopsInVue,
         DynamicHtmlAttributes,
         MonitoringInputValues,
+        EventListeners,
         LifecycleHooks,
         FromFatherToSon,
         FromSonToFather,
@@ -64,6 +66,8 @@ export default {
     <DynamicHtmlAttributes />
 
     <MonitoringInputValues />
+
+    <EventListeners />
 
     <LifecycleHooks />
 

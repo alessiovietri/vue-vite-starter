@@ -10,7 +10,7 @@
     - Cicli (v-for)                                                             FATTO - Componente: LoopsInVue
     - "Dinamicizzazione" degli attributi dei tag html (v-bind)                  FATTO - Componente: DynamicHtmlAttributes
     - Monitoraggio dei valori negli input (v-model)                             FATTO - Componente: MonitoringInputValues
-    - Intercettazione degli eventi (v-on)                                      
+    - Intercettazione degli eventi (v-on)                                       FATTO - Componente: EventListeners
     - Lifecycle hooks                                                           FATTO - Componente: LifecycleHooks
     - Componenti                                                                FATTO - Componente: tutti
     - Passaggio di dati da componente padre a componente figlio (props)         FATTO - Componente: FromFatherToSon
