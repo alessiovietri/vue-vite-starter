@@ -1,25 +1,25 @@
 # Vite + Vue Starter/Recap
 
 ## Funzionalità
-- Inizializzazione di Vue                                                       FATTO - Componente: nessuno, vedi README
-- Inizializzazione progetto Vue con Vite                                        FATTO - Componente: nessuno, vedi README
-- Funzionalità e caratteristiche di Vue:                                        ---------------------------------------------------
-    - Reattività e stampa in pagina di valori                                   FATTO - Componente: DataAndMoustaches
-    - Metodi                                                                    FATTO - Componente: MethodsInVue
-    - Istruzioni condizionali (v-if e v-show)                                   FATTO - Componente: ConditionalStatements
-    - Cicli (v-for)                                                             FATTO - Componente: LoopsInVue
-    - "Dinamicizzazione" degli attributi dei tag html (v-bind)                  FATTO - Componente: DynamicHtmlAttributes
-    - Monitoraggio dei valori negli input (v-model)                             FATTO - Componente: MonitoringInputValues
-    - Intercettazione degli eventi (v-on)                                       FATTO - Componente: EventListeners
-    - Lifecycle hooks                                                           FATTO - Componente: LifecycleHooks
-    - Componenti                                                                FATTO - Componente: tutti
-    - Passaggio di dati da componente padre a componente figlio (props)         FATTO - Componente: FromFatherToSon
-    - Invio di un messaggio da componente figlio a componente padre ($emit())   FATTO - Componente: FromSonToFather
-    - Proprietà calcolate/elaborate (computed properties)                      
-    - Magazzino di informazioni globali (store.js)                              FATTO - Componente: GlobalInformations
-    - Chiamate API (axios)                                                     
-- SASS                                                                          FATTO - Componente: qualsiasi
-- Installazione pacchetti via NPM                                               FATTO - Componente: nessuno, vedi README
+- Inizializzazione di Vue                                                       | Componente: nessuno, vedi README
+- Inizializzazione progetto Vue con Vite                                        | Componente: nessuno, vedi README
+- Funzionalità e caratteristiche di Vue:                                        | ---------------------------------------------------
+    - Reattività e stampa in pagina di valori                                   | Componente: DataAndMoustaches
+    - Metodi                                                                    | Componente: MethodsInVue
+    - Istruzioni condizionali (v-if e v-show)                                   | Componente: ConditionalStatements
+    - Cicli (v-for)                                                             | Componente: LoopsInVue
+    - "Dinamicizzazione" degli attributi dei tag html (v-bind)                  | Componente: DynamicHtmlAttributes
+    - Monitoraggio dei valori negli input (v-model)                             | Componente: MonitoringInputValues
+    - Intercettazione degli eventi (v-on)                                       | Componente: EventListeners
+    - Lifecycle hooks                                                           | Componente: LifecycleHooks
+    - Componenti                                                                | Componente: tutti
+    - Passaggio di dati da componente padre a componente figlio (props)         | Componente: FromFatherToSon
+    - Invio di un messaggio da componente figlio a componente padre ($emit())   | Componente: FromSonToFather
+    - Proprietà calcolate/elaborate (computed properties)                       | 
+    - Magazzino di informazioni globali (store.js)                              | Componente: GlobalInformations
+    - Chiamate API (axios)                                                      | 
+- SASS                                                                          | Componente: qualsiasi
+- Installazione pacchetti via NPM                                               | Componente: nessuno, vedi README
 
 ### Inizializzazione di Vue
 1. In un file JS, importo dal pacchetto Vue (preso o da CDN o da NPM) la funzione createApp()
