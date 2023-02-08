@@ -1,0 +1,20 @@
+/*
+    I parziali (come reset, variables, mixins ecc.) li possiamo:
+    - o importare qui uno ad uno (per poi importare nei vari componenti solo main.scss)
+    - o importare singolarmente nei vari componenti
+    - o importarli globalmente usando vite.config.js (vedi il file)
+
+    Le importazioni si possono fare:
+    - con @import -> importa il file e lo rende visibile a tutti gli altri file importati
+    - con @use -> importa il file e NON lo rende visibile a tutti gli altri file importati
+        - se si scegli di usare @use, ricordarsi che questa direttiva crea un namespace per ogni file importato, quindi o scriviamo:
+            - @use 'persorso/al/file.scss'; e poi per accedere alle variabili/altro all'interno del file usiamo il suo namespace (ad es. se il file è variables.scss e all'interno c'è la variabile $primary-color, per utilizzare tale variabile dobbiamo scrivere variables.$primary-color)
+            - @use 'percorso/al/file.scss' as *; per utilizzare il namespace globale () (ad es. se il file è variables.scss e all'interno c'è la variabile $primary-color, per utilizzare tale variabile dobbiamo scrivere semplicemente $primary-color)
+
+    Ricordarsi che se si vogliono mischiare @import e @use, le direttive @use vanno scritte PRIMA di qualunque altra cosa (cioè in alto nel file)
+
+*/
+
+ul, ol {
+    padding-left: 40px;
+}

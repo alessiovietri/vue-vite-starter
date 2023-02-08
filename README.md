@@ -1,24 +1,31 @@
-# Vue-Vite Starter template
+# Vue-Vite Starter template/recap
 
 ## Funzionalità
-- Inizializzazione di Vue
-- Inizializzazione progetto Vue con Vite
-- Funzionalità e caratteristiche di Vue
--- Reattività e stampa in pagina di valori
--- Metodi
--- Istruzioni condizionali (v-if e v-show)
--- Cicli (v-for)
--- "Dinamicizzazione" degli attributi dei tag html (v-bind)
--- Monitoraggio dei valori negli input (v-model)
--- Intercettazione degli eventi (v-on)
--- Lifecycle hooks
--- Componenti
--- Passaggio di dati da componente padre a componente figlio (props)
--- Invio di un messaggio da componente figlio a componente padre ($emit())
--- Proprietà calcolate/elaborate (computed properties)
--- Store
-- SASS
-- Installazione pacchetti via NPM
+- Inizializzazione di Vue                                                       FATTO - Componente: nessuno, vedi README
+- Inizializzazione progetto Vue con Vite                                        FATTO - Componente: nessuno, vedi README
+- Funzionalità e caratteristiche di Vue:
+    - Reattività e stampa in pagina di valori                                   FATTO - Componente: DataAndMoustaches
+    - Metodi                                                                    FATTO - Componente: MethodsInVue
+    - Istruzioni condizionali (v-if e v-show)                                   FATTO - Componente: ConditionalStatements
+    - Cicli (v-for)                                                             FATTO - Componente: LoopsInVue
+    - "Dinamicizzazione" degli attributi dei tag html (v-bind)
+    - Monitoraggio dei valori negli input (v-model)
+    - Intercettazione degli eventi (v-on)                                      
+    - Lifecycle hooks                                                           FATTO - Componente: LifecycleHooks
+    - Componenti                                                                FATTO - Componente: tutti
+    - Passaggio di dati da componente padre a componente figlio (props)         FATTO - Componente: FromFatherToSon
+    - Invio di un messaggio da componente figlio a componente padre ($emit())   FATTO - Componente: FromSonToFather
+    - Proprietà calcolate/elaborate (computed properties)                      
+    - Magazzino di informazioni globali (store.js)                              FATTO - Componente: GlobalInformations
+    - Chiamate API (axios)                                                     
+- SASS                                                                          FATTO - Componente: qualsiasi
+- Installazione pacchetti via NPM                                               FATTO - Componente: nessuno, vedi README
+
+### Inizializzazione di Vue
+1. In un file JS, importo dal pacchetto Vue (preso o da CDN o da NPM) la funzione createApp()
+2. Richiamo la funzione createApp() con un parametro che sarà un oggetto
+3. L'oggetto passato a createApp() conterrà tutte i dati e le funzionalità che ci servono
+4. Una volta creata l'istanza Vue con createApp(), la montiamo utilizzando la funzione mount(), il cui unico argomento sarà una stringa contenente il selettore CSS che identificherà il contenitore in cui montare la nostra istanza
 
 ### Inizializzazione progetto Vue con Vite
 1. Apro terminale (powershell)
@@ -34,3 +41,20 @@
 Passi successivi:
 1. Portiamo tutti i componenti che abbiamo nel progetto alle Options API => Quindi, modifichiamo App.vue e HelloWorld.vue
 2. Nel componente App.vue, rimuoviamo l'attributo scoped sul tag <style>
+
+
+
+### Installazione SASS
+1. Installare SASS via npm tramite il comando "npm add -D sass"
+2. Aggiungere attributo lang="scss" nei componenti nei quali vogliamo usare SASS
+3. Eliminare il file style.css da src
+4. Rimuovere l'importazione del file style.css da main.js
+5. Creare la cartella styles nella cartella src al cui interno inseriremo i file .scss che necessitiamo
+5a. Solitamente, creiamo almeno il file main.scss in cui poi facciamo tutte le importazioni che ci servono
+
+
+### Installare pacchetti via NPM (Bootstrap, axios, Font Awesome...)
+1. Apro la documentazione del pacchetto
+2. Vado alla sezione Getting started/Introduction/First steps
+3. Vedo come installare via NPM (qual è il comando e qual è il pacchetto da installare (o i pacchetti, come con Bootstrap che vuole popper))
+4. Vedo se c'è altro da configurare (come per Font Awesome con Vue)

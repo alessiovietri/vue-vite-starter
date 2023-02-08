@@ -11,7 +11,7 @@ import { store } from './store';
 // 1. Importazione
 import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
 import MethodsInVue from './components/Topics/MethodsInVue.vue';
-import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
+import ConditionalStatements from './components/Topics/ConditionalStatements.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
@@ -29,7 +29,7 @@ export default {
     components: {
         DataAndMoustaches,
         MethodsInVue,
-        ConditionalOperators,
+        ConditionalStatements,
         LoopsInVue,
         LifecycleHooks,
         FromFatherToSon,
@@ -53,7 +53,7 @@ export default {
 
     <MethodsInVue />
 
-    <ConditionalOperators />
+    <ConditionalStatements />
 
     <LoopsInVue />
 
@@ -63,7 +63,7 @@ export default {
 
     <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
 
-    <div>
+    <div class="test-scss">
         <h3>
             {{ store.counter }}
         </h3>
@@ -73,9 +73,21 @@ export default {
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
-<style>
+<!-- E se voglio utilizzare sass, aggiungo l'attributo lang="scss" -->
+<style lang="scss">
+// Qui possiamo anche importare dei file .scss (attenzione al percorso)
+@import './styles/main';
+
 section {
     border: 1px solid white;
     padding: 10px;
+}
+
+.test-scss {
+    border: 3px solid red;
+
+    > h3 {
+        text-decoration: underline;
+    }
 }
 </style>

@@ -1,0 +1,13 @@
+// Per questo mixin sono stati inseriti degli argomenti che hanno dei valori di default (quelli originali delle 3 proprietà)
+@mixin flex-container($flex-direction: row, $justify-content: flex-start, $align-items: stretch) {
+
+    // La direttiva @debug ci consente di stampare nel terminale qualcosa durante la compilazione
+    @debug "Il valore scelto per flex-direction è:" + $flex-direction;
+    @debug "Il valore scelto per justify-content è:" + $justify-content;
+    @debug "Il valore scelto per align-items è:" + $align-items;
+
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+
+}

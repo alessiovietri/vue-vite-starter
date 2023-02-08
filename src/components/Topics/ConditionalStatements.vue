@@ -3,7 +3,7 @@
 -->
 <script>
 export default {
-    name: 'ConditionalOperators',
+    name: 'ConditionalStatements',
     data() {
         return {
             numberOne: 1,
@@ -15,7 +15,7 @@ export default {
 
 <template>
 
-    <section id="conditional-operators">
+    <section id="conditional-statements">
         <!-- v-if rimuove dall'HTML se la condizione non è soddisfatto -->
         <div v-if="numberOne % 2 == 0">
             numberOne è pari
