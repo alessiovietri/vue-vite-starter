@@ -11,6 +11,7 @@ import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
 import MethodsInVue from './components/Topics/MethodsInVue.vue';
 import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
+import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 
 export default {
     name: "App",
@@ -20,6 +21,7 @@ export default {
         MethodsInVue,
         ConditionalOperators,
         LoopsInVue,
+        LifecycleHooks,
     }
 };
 </script>
@@ -31,8 +33,10 @@ export default {
     <MethodsInVue />
 
     <ConditionalOperators />
-    
+
     <LoopsInVue />
+
+    <LifecycleHooks />
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->

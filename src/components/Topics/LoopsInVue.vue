@@ -15,6 +15,7 @@ export default {
 <template>
 
     <section id="loops-in-vue">
+        <!-- NON mischiare mai v-for e v-if (cioè non inserire v-if e v-for sullo stesso tag) -->
         <ul>
             <li v-for="singleInfo in randomInformations">
                 {{ singleInfo }}
