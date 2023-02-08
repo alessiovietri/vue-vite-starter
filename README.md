@@ -1,4 +1,4 @@
-# Vue-Vite Starter template/recap
+# Vite + Vue Starter/Recap
 
 ## Funzionalità
 - Inizializzazione di Vue                                                       FATTO - Componente: nessuno, vedi README
