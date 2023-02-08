@@ -5,12 +5,12 @@
 - Inizializzazione progetto Vue con Vite
 - Funzionalità e caratteristiche di Vue
 -- Reattività e stampa in pagina di valori
+-- Metodi
 -- Istruzioni condizionali (v-if e v-show)
 -- Cicli (v-for)
 -- "Dinamicizzazione" degli attributi dei tag html (v-bind)
 -- Monitoraggio dei valori negli input (v-model)
 -- Intercettazione degli eventi (v-on)
--- Metodi
 -- Lifecycle hooks
 -- Componenti
 -- Passaggio di dati da componente padre a componente figlio (props)

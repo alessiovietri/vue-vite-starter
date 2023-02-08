@@ -8,12 +8,16 @@
 // Passi per utilizzare sottocomponenti
 // 1. Importazione
 import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
+import MethodsInVue from './components/Topics/MethodsInVue.vue';
+import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
 
 export default {
     name: "App",
     // 2. Registrazione
     components: {
         DataAndMoustaches,
+        MethodsInVue,
+        ConditionalOperators,
     }
 };
 </script>
@@ -21,6 +25,8 @@ export default {
 <template>
     <!-- 3. Utilizzo (nuovo tag HTML self-closing) -->
     <DataAndMoustaches />
+    <MethodsInVue />
+    <ConditionalOperators />
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
