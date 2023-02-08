@@ -5,6 +5,8 @@
     3. Aggiungere la proprietà name nell'oggetto esportato che avrà come valore il nome del componente (opzionale, ma buona pratica)
 -->
 <script>
+import { store } from './store';
+
 // Passi per utilizzare sottocomponenti
 // 1. Importazione
 import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
@@ -14,9 +16,15 @@ import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
+import GlobalInformations from './components/Topics/GlobalInformations.vue';
 
 export default {
     name: "App",
+    data() {
+        return {
+            store
+        }
+    },
     // 2. Registrazione
     components: {
         DataAndMoustaches,
@@ -26,6 +34,7 @@ export default {
         LifecycleHooks,
         FromFatherToSon,
         FromSonToFather,
+        GlobalInformations,
     },
     methods: {
         reactToRandomEvent() {
@@ -53,6 +62,14 @@ export default {
     <FromFatherToSon :count="3" message="Ciao dal padre" />
 
     <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
+
+    <div>
+        <h3>
+            {{ store.counter }}
+        </h3>
+
+        <GlobalInformations />
+    </div>
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
