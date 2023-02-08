@@ -12,6 +12,7 @@ import MethodsInVue from './components/Topics/MethodsInVue.vue';
 import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
+import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 
 export default {
     name: "App",
@@ -22,6 +23,7 @@ export default {
         ConditionalOperators,
         LoopsInVue,
         LifecycleHooks,
+        FromFatherToSon,
     }
 };
 </script>
@@ -37,6 +39,8 @@ export default {
     <LoopsInVue />
 
     <LifecycleHooks />
+
+    <FromFatherToSon :count="3" message="Ciao dal padre" />
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
