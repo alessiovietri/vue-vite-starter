@@ -16,6 +16,7 @@
 -- Passaggio di dati da componente padre a componente figlio (props)
 -- Invio di un messaggio da componente figlio a componente padre ($emit())
 -- Proprietà calcolate/elaborate (computed properties)
+-- Store
 - SASS
 - Installazione pacchetti via NPM
 

@@ -13,6 +13,7 @@ import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
+import FromSonToFather from './components/Topics/FromSonToFather.vue';
 
 export default {
     name: "App",
@@ -24,6 +25,15 @@ export default {
         LoopsInVue,
         LifecycleHooks,
         FromFatherToSon,
+        FromSonToFather,
+    },
+    methods: {
+        reactToRandomEvent() {
+            console.log('Messaggio ricevuto, caro figlio');
+        },
+        reactToOtherRandomEvent(data) {
+            console.log('Messaggio ricevuto, caro figlio. Mi hai detto:', data);
+        },
     }
 };
 </script>
@@ -41,6 +51,8 @@ export default {
     <LifecycleHooks />
 
     <FromFatherToSon :count="3" message="Ciao dal padre" />
+
+    <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
