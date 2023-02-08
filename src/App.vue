@@ -14,6 +14,7 @@ import MethodsInVue from './components/Topics/MethodsInVue.vue';
 import ConditionalStatements from './components/Topics/ConditionalStatements.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
 import DynamicHtmlAttributes from './components/Topics/DynamicHtmlAttributes.vue';
+import MonitoringInputValues from './components/Topics/MonitoringInputValues.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
@@ -33,6 +34,7 @@ export default {
         ConditionalStatements,
         LoopsInVue,
         DynamicHtmlAttributes,
+        MonitoringInputValues,
         LifecycleHooks,
         FromFatherToSon,
         FromSonToFather,
@@ -61,6 +63,8 @@ export default {
 
     <DynamicHtmlAttributes />
 
+    <MonitoringInputValues />
+
     <LifecycleHooks />
 
     <FromFatherToSon :count="3" message="Ciao dal padre" />
@@ -83,7 +87,7 @@ export default {
 @import './styles/main';
 
 section {
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
 }
 

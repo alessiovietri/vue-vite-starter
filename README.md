@@ -9,7 +9,7 @@
     - Istruzioni condizionali (v-if e v-show)                                   FATTO - Componente: ConditionalStatements
     - Cicli (v-for)                                                             FATTO - Componente: LoopsInVue
     - "Dinamicizzazione" degli attributi dei tag html (v-bind)                  FATTO - Componente: DynamicHtmlAttributes
-    - Monitoraggio dei valori negli input (v-model)                             FATTO - Componente: 
+    - Monitoraggio dei valori negli input (v-model)                             FATTO - Componente: MonitoringInputValues
     - Intercettazione degli eventi (v-on)                                      
     - Lifecycle hooks                                                           FATTO - Componente: LifecycleHooks
     - Componenti                                                                FATTO - Componente: tutti
