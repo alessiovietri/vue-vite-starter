@@ -1,5 +1,5 @@
 <!-- 
-    
+    Cicli (v-for)
 -->
 <script>
 export default {

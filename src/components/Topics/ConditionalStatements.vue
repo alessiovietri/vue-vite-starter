@@ -1,5 +1,5 @@
 <!-- 
-    
+    Istruzioni condizionali (v-if e v-show)
 -->
 <script>
 export default {

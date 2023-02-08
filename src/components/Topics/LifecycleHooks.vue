@@ -1,5 +1,5 @@
 <!-- 
-    
+    Lifecycle hooks 
 -->
 <script>
 export default {

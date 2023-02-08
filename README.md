@@ -3,13 +3,13 @@
 ## Funzionalità
 - Inizializzazione di Vue                                                       FATTO - Componente: nessuno, vedi README
 - Inizializzazione progetto Vue con Vite                                        FATTO - Componente: nessuno, vedi README
-- Funzionalità e caratteristiche di Vue:
+- Funzionalità e caratteristiche di Vue:                                        ---------------------------------------------------
     - Reattività e stampa in pagina di valori                                   FATTO - Componente: DataAndMoustaches
     - Metodi                                                                    FATTO - Componente: MethodsInVue
     - Istruzioni condizionali (v-if e v-show)                                   FATTO - Componente: ConditionalStatements
     - Cicli (v-for)                                                             FATTO - Componente: LoopsInVue
-    - "Dinamicizzazione" degli attributi dei tag html (v-bind)
-    - Monitoraggio dei valori negli input (v-model)
+    - "Dinamicizzazione" degli attributi dei tag html (v-bind)                  FATTO - Componente: DynamicHtmlAttributes
+    - Monitoraggio dei valori negli input (v-model)                             FATTO - Componente: 
     - Intercettazione degli eventi (v-on)                                      
     - Lifecycle hooks                                                           FATTO - Componente: LifecycleHooks
     - Componenti                                                                FATTO - Componente: tutti

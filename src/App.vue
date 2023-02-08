@@ -13,6 +13,7 @@ import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
 import MethodsInVue from './components/Topics/MethodsInVue.vue';
 import ConditionalStatements from './components/Topics/ConditionalStatements.vue';
 import LoopsInVue from './components/Topics/LoopsInVue.vue';
+import DynamicHtmlAttributes from './components/Topics/DynamicHtmlAttributes.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
@@ -31,6 +32,7 @@ export default {
         MethodsInVue,
         ConditionalStatements,
         LoopsInVue,
+        DynamicHtmlAttributes,
         LifecycleHooks,
         FromFatherToSon,
         FromSonToFather,
@@ -56,6 +58,8 @@ export default {
     <ConditionalStatements />
 
     <LoopsInVue />
+
+    <DynamicHtmlAttributes />
 
     <LifecycleHooks />
 

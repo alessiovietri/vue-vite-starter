@@ -1,5 +1,5 @@
 <!-- 
-    
+    Passaggio di dati da componente padre a componente figlio (props)
 -->
 <script>
 export default {

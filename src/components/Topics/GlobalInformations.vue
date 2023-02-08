@@ -1,5 +1,5 @@
 <!-- 
-    
+    Magazzino di informazioni globali (store.js)
 -->
 <script>
 import { store } from '../../store.js';

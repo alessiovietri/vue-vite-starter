@@ -1,5 +1,5 @@
 <!-- 
-    
+    Invio di un messaggio da componente figlio a componente padre ($emit())
 -->
 <script>
 export default {
