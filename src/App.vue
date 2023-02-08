@@ -10,6 +10,7 @@
 import DataAndMoustaches from './components/Topics/DataAndMoustaches.vue';
 import MethodsInVue from './components/Topics/MethodsInVue.vue';
 import ConditionalOperators from './components/Topics/ConditionalOperators.vue';
+import LoopsInVue from './components/Topics/LoopsInVue.vue';
 
 export default {
     name: "App",
@@ -18,6 +19,7 @@ export default {
         DataAndMoustaches,
         MethodsInVue,
         ConditionalOperators,
+        LoopsInVue,
     }
 };
 </script>
@@ -25,8 +27,12 @@ export default {
 <template>
     <!-- 3. Utilizzo (nuovo tag HTML self-closing) -->
     <DataAndMoustaches />
+
     <MethodsInVue />
+
     <ConditionalOperators />
+    
+    <LoopsInVue />
 </template>
 
 <!-- Nel componente App.vue, rimuoviamo anche l'attributo scoped su <style> -->
