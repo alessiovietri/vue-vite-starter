@@ -15,9 +15,9 @@
     - Componenti                                                                | Componente: tutti
     - Passaggio di dati da componente padre a componente figlio (props)         | Componente: FromFatherToSon
     - Invio di un messaggio da componente figlio a componente padre ($emit())   | Componente: FromSonToFather
-    - Proprietà calcolate/elaborate (computed properties)                       | 
+    - Proprietà calcolate/elaborate (computed properties)                       | Componente: ComputedProperties
     - Magazzino di informazioni globali (store.js)                              | Componente: GlobalInformations
-    - Chiamate API (axios)                                                      | 
+    - Chiamate API (axios)                                                      | Componente: WIP:
 - SASS                                                                          | Componente: qualsiasi
 - Installazione pacchetti via NPM                                               | Componente: nessuno, vedi README
 
@@ -34,9 +34,9 @@
 4. Seleziono il framework giusto (cioè Vue)
 5. Seleziono la variante di JS giusta (cioè JavaScript)
 6. Una volta completata l'inizializzazione del progetto tramite il pacchetto Vite, possiamo provarlo direttamente eseguendo i 2 comandi:
-    6a. npm install -> Serve per installare tutte le dipendenze del nostro progetto (che troviamo nel file package.json divise in 2 sezioni)
-    6b. npm run dev -> Avvia il server locale che ci consente di compilare il progetto e di visualizzarlo nel browser
-    6c. (Per eseguirli insieme, sulla powershell si scrive "npm install ; npm run dev", su altri terminali si scrive "npm install & npm run dev")
+    1. npm install -> Serve per installare tutte le dipendenze del nostro progetto (che troviamo nel file package.json divise in 2 sezioni)
+    2. npm run dev -> Avvia il server locale che ci consente di compilare il progetto e di visualizzarlo nel browser
+    3. (Per eseguirli insieme, sulla powershell si scrive "npm install ; npm run dev", su altri terminali si scrive "npm install & npm run dev")
 
 Passi successivi:
 1. Portiamo tutti i componenti che abbiamo nel progetto alle Options API => Quindi, modifichiamo App.vue e HelloWorld.vue
@@ -50,11 +50,11 @@ Passi successivi:
 3. Eliminare il file style.css da src
 4. Rimuovere l'importazione del file style.css da main.js
 5. Creare la cartella styles nella cartella src al cui interno inseriremo i file .scss che necessitiamo
-5a. Solitamente, creiamo almeno il file main.scss in cui poi facciamo tutte le importazioni che ci servono
+    - Solitamente, creiamo almeno il file main.scss in cui poi facciamo tutte le importazioni che ci servono e/o mettiamo lo stile di base
 
 
 ### Installare pacchetti via NPM (Bootstrap, axios, Font Awesome...)
 1. Apro la documentazione del pacchetto
 2. Vado alla sezione Getting started/Introduction/First steps
-3. Vedo come installare via NPM (qual è il comando e qual è il pacchetto da installare (o i pacchetti, come con Bootstrap che vuole popper))
+3. Vedo come installare via NPM [qual è il comando e qual è il pacchetto da installare (o i pacchetti, come per Bootstrap che vuole popper)]
 4. Vedo se c'è altro da configurare (come per Font Awesome con Vue)

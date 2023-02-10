@@ -19,6 +19,7 @@ import EventListeners from './components/Topics/EventListeners.vue';
 import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
+import ComputedProperties from './components/Topics/ComputedProperties.vue';
 import GlobalInformations from './components/Topics/GlobalInformations.vue';
 
 export default {
@@ -40,6 +41,7 @@ export default {
         LifecycleHooks,
         FromFatherToSon,
         FromSonToFather,
+        ComputedProperties,
         GlobalInformations,
     },
     methods: {
@@ -74,6 +76,8 @@ export default {
     <FromFatherToSon :count="3" message="Ciao dal padre" />
 
     <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
+
+    <ComputedProperties />
 
     <div class="test-scss">
         <h3>
