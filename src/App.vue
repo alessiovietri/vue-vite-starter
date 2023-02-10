@@ -20,6 +20,7 @@ import LifecycleHooks from './components/Topics/LifecycleHooks.vue';
 import FromFatherToSon from './components/Topics/FromFatherToSon.vue';
 import FromSonToFather from './components/Topics/FromSonToFather.vue';
 import ComputedProperties from './components/Topics/ComputedProperties.vue';
+import ApiCalls from './components/Topics/ApiCalls.vue';
 import GlobalInformations from './components/Topics/GlobalInformations.vue';
 
 export default {
@@ -42,6 +43,7 @@ export default {
         FromFatherToSon,
         FromSonToFather,
         ComputedProperties,
+        ApiCalls,
         GlobalInformations,
     },
     methods: {
@@ -78,6 +80,8 @@ export default {
     <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
 
     <ComputedProperties />
+
+    <ApiCalls />
 
     <div class="test-scss">
         <h3>

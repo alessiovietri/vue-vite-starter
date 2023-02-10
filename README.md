@@ -17,7 +17,7 @@
     - Invio di un messaggio da componente figlio a componente padre ($emit())   | Componente: FromSonToFather
     - Proprietà calcolate/elaborate (computed properties)                       | Componente: ComputedProperties
     - Magazzino di informazioni globali (store.js)                              | Componente: GlobalInformations
-    - Chiamate API (axios)                                                      | Componente: WIP:
+    - Chiamate API (axios)                                                      | Componente: ApiCalls
 - SASS                                                                          | Componente: qualsiasi
 - Installazione pacchetti via NPM                                               | Componente: nessuno, vedi README
 
