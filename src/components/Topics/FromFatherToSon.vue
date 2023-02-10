@@ -4,10 +4,6 @@
 <script>
 export default {
     name: 'FromFatherToSon',
-    data() {
-        return {
-        }
-    },
     // Sintassi 1
     props: {
         message: String,

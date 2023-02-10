@@ -75,8 +75,11 @@ export default {
 
     <LifecycleHooks />
 
+    <!-- Per passare una prop, posso sia usare il v-binding, sia usare attributi normali (se ho bisogno di passare stringhe normali) -->
+    <!-- Uso il v-bind quando devo passare qualcosa che è il risultato di un'operazione in JS (o un tipo di valore diverso da stringa, come i numeri) -->
     <FromFatherToSon :count="3" message="Ciao dal padre" />
 
+    <!-- Posso reagire ad emit differenti -->
     <FromSonToFather @randomEvent="reactToRandomEvent" @otherRandomEvent="reactToOtherRandomEvent" />
 
     <ComputedProperties />
@@ -85,6 +88,7 @@ export default {
 
     <div class="test-scss">
         <h3>
+            <!-- Qui sto leggendo il contenuto di store (nello specifico, la proprietà counter) -->
             {{ store.counter }}
         </h3>
 

@@ -1,6 +1,7 @@
 <!-- 
     Lifecycle hooks 
 -->
+<!-- Documentazione: https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram -->
 <script>
 export default {
     name: 'LifecycleHooks',
@@ -8,6 +9,8 @@ export default {
         return {
         }
     },
+    // Ogni hook del lifecycle di Vue corrisponde a (/è utilizzabile tramite) una funzione che prende il nome dall'hook stesso
+    // Esempi di hook:
     beforeCreate() {
         console.log('beforeCreate');
     },
